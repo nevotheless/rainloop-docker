@@ -9,6 +9,6 @@ RUN curl -O http://www.rainloop.net/repository/webmail/rainloop-community-latest
 # Install unzip and extract the rainloop files to the actual webserver folder
 RUN apt-get update && apt-get install -y \
        unzip \
-    && unzip rainloop-community-latest.zip -d /var/www/rainloop
+    && unzip rainloop-community-latest.zip -d /var/www/html
 
 # Work in progress

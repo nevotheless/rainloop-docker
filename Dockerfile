@@ -4,7 +4,7 @@ FROM php:7.0-apache
 MAINTAINER tim@arctium.io
 
 # Download rainloop source
-ADD https://www.rainloop.net/repository/webmail/rainloop-community-latest.zip ~/rainloop-community-latest.zip
+ADD http://www.rainloop.net/repository/webmail/rainloop-community-latest.zip ~/
 
 # Install unzip and extract the rainloop files to the actual webserver folder
 RUN apt-get update && apt-get install -y \

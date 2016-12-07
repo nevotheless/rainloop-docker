@@ -7,7 +7,8 @@ MAINTAINER kopplow.tim@gmail.com
 ADD https://www.rainloop.net/repository/webmail/rainloop-community-latest.zip ~/rainloop-community-latest.zip
 
 # Install unzip and extract the rainloop files to the actual webserver folder
-RUN apt-get install unzip \
+RUN apt-get update && apt-get install -y \
+       unzip \
     && unzip ~/rainloop-comunity-latest.zip -d /var/www/rainloop
 
 # Work in progress

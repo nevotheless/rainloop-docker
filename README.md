@@ -9,3 +9,6 @@ Check out the github repository for further informations.
 Example with exposed ports `-p` and run in backround (detached) `-d`.
 
 `docker run --name some-name -d -p 80:80 ununseptium/rainloop-docker`
+
+## known issues
+Currently, as this is still work in progress, the permissions of rainloop aren't setup correctly as it seems. I'll try to follow the rainloop documentation. 

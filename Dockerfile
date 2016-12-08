@@ -11,8 +11,8 @@ RUN apt-get update && apt-get install -y \
        unzip \
     && unzip rainloop-community-latest.zip -d /var/www/html \
     && cd /var/www/html \
-    && find . -type d -exec chmod 755 {} \
-    && find . -type f -exec chmod 644 {} \
+    && find . -type d -exec chmod 755 {} \; \
+    && find . -type f -exec chmod 644 {} \; \
     && chmod -R www-data:www-data .
 
 # Work in progress

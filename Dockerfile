@@ -15,4 +15,4 @@ RUN apt-get update && apt-get install -y \
     && find . -type f -exec chmod 644 {} \; \
     && chown -R www-data:www-data .
 
-# Work in progress
+VOLUME /var/www/html/data

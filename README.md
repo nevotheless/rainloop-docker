@@ -1,14 +1,11 @@
 # rainloop-docker
 Rainloop is a simple, modern & fast web-based email client ... now containerized.
 
-## work in progress -- note 
-This image is currently work in progress. It will be enhanced over the next few weeks and may not work correctly. 
-Check out the github repository for further informations.
+> This Dockerfile contains a thinner and more modern approach to run a dockerized version of rainloop. 
+> It's based on the php:7.0-apache image which ships with apache and php7 right out of the box.
 
 ## how to run
-Example with exposed ports `-p` and run in backround (detached) `-d`.
+
+Example command to just run the image in background (`-d`) and bind to the port 80 of the host machine (`-p 80:80`).
 
 `docker run --name some-name -d -p 80:80 ununseptium/rainloop-docker`
-
-## known issues
-Currently, as this is still work in progress, the permissions of rainloop aren't setup correctly as it seems. I'll try to follow the rainloop documentation. 

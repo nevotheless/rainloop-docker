@@ -13,6 +13,6 @@ RUN apt-get update && apt-get install -y \
     && cd /var/www/html \
     && find . -type d -exec chmod 755 {} \; \
     && find . -type f -exec chmod 644 {} \; \
-    && chmod -R www-data:www-data .
+    && chown -R www-data:www-data .
 
 # Work in progress

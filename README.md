@@ -2,7 +2,7 @@
 Rainloop is a simple, modern & fast web-based email client ... now containerized.
 
 > This Dockerfile contains a thinner and more modern approach to run a dockerized version of rainloop. 
-> It's based on the php:7.0-apache image which ships with apache and php7 right out of the box.
+> It's based on the php:7.1-apache image which ships with apache and php7 right out of the box.
 
 ## how to run
 

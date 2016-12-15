@@ -1,3 +1,5 @@
+[![](https://images.microbadger.com/badges/image/ununseptium/rainloop-docker.svg)](https://microbadger.com/images/ununseptium/rainloop-docker "Get your own image badge on microbadger.com")
+
 # rainloop-docker
 Rainloop is a simple, modern & fast web-based email client ... now containerized.
 
